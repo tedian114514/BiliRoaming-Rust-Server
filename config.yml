@@ -127,4 +127,9 @@ api_assesskey_open:
   "1": false
   "2": false
   "4": false
-report_config: !NoReport
+report_config: !Custom
+  method: "Post"
+  url: ""
+  content: ""
+  proxy_open: false
+  proxy_url: ""
