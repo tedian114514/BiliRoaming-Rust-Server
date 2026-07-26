@@ -2,11 +2,11 @@ config_version: 2
 auto_update: false
 auto_close: true
 redis: redis://:password@host:6379
-woker_num: 8
+worker_num: 8
 port: 2662
-limit_biliroaming_version_open: false,
-limit_biliroaming_version_min: 64,
-limit_biliroaming_version_max: 80,
+limit_biliroaming_version_open: false
+limit_biliroaming_version_min: 64
+limit_biliroaming_version_max: 80
 cn_app_playurl_api: https://api.bilibili.com/pgc/player/api/playurl
 tw_app_playurl_api: https://api.bilibili.com/pgc/player/api/playurl
 hk_app_playurl_api: https://api.bilibili.com/pgc/player/api/playurl
@@ -68,7 +68,7 @@ th_proxy_token_url: 127.0.0.1:7890
 cn_proxy_token_open: false
 th_proxy_token_open: true
 cn_proxy_accesskey_url: 127.0.0.1:7890
-cn_proxy_accesskey_open: false,
+cn_proxy_accesskey_open: false
 th_proxy_subtitle_url: 127.0.0.1:7890
 th_proxy_subtitle_open: true
 aid: 127001
@@ -136,7 +136,7 @@ report_config:
   tg_bot_config:
     tg_bot_token: ""
     tg_chat_id: ""
-    tg_proxy_api_open": false
+    tg_proxy_api_open: false
     tg_proxy_url: ""
   pushplus_config:
     pushplus_push_title: ""
