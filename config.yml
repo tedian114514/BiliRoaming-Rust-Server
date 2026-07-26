@@ -1,7 +1,7 @@
 config_version: 2
 auto_update: false
 auto_close: true
-redis: ""
+redis: redis://red-d9iuon4m0tmc73a4vac0:6379
 worker_num: 8
 port: 2662
 limit_biliroaming_version_open: false
